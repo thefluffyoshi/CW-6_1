@@ -15,4 +15,15 @@ public class Grade
         grades = newGrades;
         cutoff = newCuttoff;
     }//end constructor
+
+    //Getters
+    public String getGrades()
+    {
+      return grades;
+    }//end grades getter
+
+    public int getCutoff()
+    {
+        return cutoff;
+    }//end cutoff getter
 }//end Grade
